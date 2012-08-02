@@ -166,8 +166,7 @@ hi link TagListTagScope Special
 " end taglist
 
 " For Tagbar
-hi TagbarSignature      guibg=NONE
-
+hi TagbarSignature       guifg=#808080     guibg=NONE     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " Special for Ruby
 hi rubyRegexp                  guifg=#B18A3D      guibg=NONE      gui=NONE      ctermfg=brown          ctermbg=NONE      cterm=NONE
