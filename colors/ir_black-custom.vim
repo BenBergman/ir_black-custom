@@ -83,7 +83,7 @@ hi FoldColumn       guifg=#E18964     guibg=NONE        gui=NONE      ctermfg=wh
 hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Visual           guifg=NONE        guibg=#262D51     gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 
-hi SpecialKey       guifg=#808080     guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi SpecialKey       guifg=#808080     guibg=#343434     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 hi WildMenu         guifg=green       guibg=yellow      gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 hi PmenuSbar        guifg=black       guibg=white       gui=NONE      ctermfg=black       ctermbg=white       cterm=NONE
@@ -164,6 +164,9 @@ hi link TagListFileName Statement
 hi link TagListTitle    Directory
 hi link TagListTagScope Special
 " end taglist
+
+" For Tagbar
+hi TagbarSignature      guibg=NONE
 
 
 " Special for Ruby
